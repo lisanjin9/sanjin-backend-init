@@ -1,12 +1,13 @@
 spring:
   application:
     name: sanjin-backend-init
-server:
-  port: 8080
-
-## ???????
+    # 数据库链接
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/my_db
     username: root
     password: root
+server:
+  port: 8080
+
+##

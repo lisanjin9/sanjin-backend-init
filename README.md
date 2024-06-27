@@ -16,7 +16,20 @@ datasource:
   url: jdbc:mysql://localhost:3306/my_db
   username: root
   password: root
+  
+  <!--引入 mysql，mybatis plus 配置文件中的driver-class-name   -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.2</version>
+        </dependency>
 ````
 ## 主流框架 & 特点
 - Spring Boot(2.7.2)
-- 
+- lombok
+- mybatis plus

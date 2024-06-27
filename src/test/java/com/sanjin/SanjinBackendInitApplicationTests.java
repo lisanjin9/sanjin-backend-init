@@ -1,4 +1,4 @@
-package com.sanjin.sanjinbackendinit;
+package com.sanjin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
