@@ -21,6 +21,7 @@ target/
 .mvn
 mvnw
 mvnw.*
+/src/main/java/demo/
 
 
 ### NetBeans ###
